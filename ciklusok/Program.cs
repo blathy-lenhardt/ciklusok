@@ -47,6 +47,39 @@ namespace ciklusok
 			 */
 			for (int i = 10; i >= 1; i--)
 				Console.WriteLine(i);
+			Console.WriteLine();
+
+
+			// ELÖLTESZTELŐS CIKLUS
+
+			/* A ciklusmagot csak a ciklusfeltétel teljesülése esetén hajtjuk végre.
+			 * 
+			 * Algoritmus:
+			 *	Ciklus amíg feltétel
+			 *		ciklusmag
+			 *	Ciklus vége
+			 *	
+			 *	C#
+			 *	kezdőérték;
+			 *	while (feltétel) {
+			 *		ciklusmag;
+			 *		lépésszám;
+			 *	}
+			 *	
+			 *	Példa: Írjuk ki a számokat 1-től 10-ig!
+			 *	i := 1
+			 *	Ciklus amíg (i <= 10)
+			 *		Ki: i
+			 *		i := i + 1
+			 *	Ciklus vége
+			 */
+
+			int j = 1;
+			while (j <= 10)
+			{
+				Console.WriteLine(j);
+				j++;
+			}
 		}
 	}
 }
