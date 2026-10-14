@@ -80,6 +80,39 @@ namespace ciklusok
 				Console.WriteLine(j);
 				j++;
 			}
+			Console.WriteLine();
+
+
+			// HÁTULTESZTELŐS CIKLUS
+
+			/* Algoritmus:
+			 *	Ciklus
+			 *		ciklusmag
+			 *	amíg feltétel
+			 *	Ciklus vége
+			 *	
+			 *	C#
+			 *	kezdőérték;
+			 *	do {
+			 *		ciklusmag;
+			 *		lépésszám;
+			 *	} while (feltétel);
+			 *	
+			 *	Példa:
+			 *	i := 1
+			 *	Ciklus
+			 *		Ki: i
+			 *		i := i + 1
+			 *	amíg (i <= 10)
+			 *	Ciklus vége
+			 */
+
+			int k = 1;
+			do
+			{
+				Console.WriteLine(k);
+				k++;
+			} while (k <= 10);
 		}
 	}
 }
