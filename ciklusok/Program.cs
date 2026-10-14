@@ -113,6 +113,17 @@ namespace ciklusok
 				Console.WriteLine(k);
 				k++;
 			} while (k <= 10);
+
+			/* Foreach ciklus
+			 * C#
+			 * foreach (típus változó in lista) {
+			 *	ciklusmag;
+			 * }
+			 * 
+			 * Megjegyzés:
+			 *	Számlálós ciklus -> ciklusváltozó az index
+			 *	foreach ciklus	 -> ciklusváltozó érték (pl. lista elemeinek értéke)
+			 */
 		}
 	}
 }
